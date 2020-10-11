@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './../Global.css';
 import './../App.css';
-import './../Login.css';
+import './../styles/Global.css';
+import './../styles/Login.css';
 
 function Login() {
 	return (

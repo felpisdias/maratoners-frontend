@@ -2,7 +2,7 @@ import React from 'react';
 
 import Login from './views/Login';
 
-import './Global.css';
+import './styles/Global.css';
 import './App.css';
 
 function App() {
