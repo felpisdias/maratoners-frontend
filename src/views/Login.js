@@ -1,49 +1,54 @@
-import React from 'react';
-
-import './../App.css';
+import './../styles/Form.css';
 import './../styles/Global.css';
-import './../styles/Login.css';
+
+import React, {useState} from 'react';
 
 function Login() {
-	return (
-		<div id="Login">
-			<strong>
-				Cadastrar-se
-			</strong>
-			<form>
-				<div class="input-block">
-					<label htmlFor="email">Email</label>
-					<input placeholder="Digite seu email" name="email" id="email" required/>
-				</div>
-				<div class="input-block">
-					<label htmlFor="name">Nome</label>
-					<input placeholder="Digite seu nome" name="name" id="name" required/>
-				</div>
-				<div class="input-block">
-					<label htmlFor="series">Séries</label>
-					<input placeholder="Digite suas séries favoritas, separe-as por ," name="series" id="series" required/>
-				</div>
+	const [email, setEmail] = useState('');
+	const [password, setPassword] = useState('');
 
-				<div class="input-block">
-					<label htmlFor="instaUser">Usuário do instagram</label>
-					<input placeholder="Digite o seu usuário do instagram" name="instaUser" id="instaUser"/>
-				</div>
-				<div class="input-group">
-					<div class="coords">
-						<label htmlFor="longitude">Longitude</label>
-						<input type="number" name="longitude" id="longitude" required/>
+	async function handleSubmit(e) {
+		e.preventDefault();
+	};
+	return (
+		<div id="Form">
+			<strong id="title">
+				Bem vindo Maratoner
+			</strong>
+				<form onSubmit={handleSubmit}>
+					<div className="input-block">
+						<label htmlFor="email">Email</label>
+						<input
+							placeholder="Digite seu email"
+							name="email"
+							id="email"
+							required
+							value={email}
+							onChange={e => setEmail(e.target.value)}
+						/>
 					</div>
-					<div class="coords">
-						<label htmlFor="latitude">Latitude</label>
-						<input type="number" name="latitude" id="latitude" required/>
+					<div className="input-block">
+						<label htmlFor="name">Senha</label>
+						<input
+							placeholder="Digite sua senha"
+							name="password"
+							id="password"
+							required
+							type="password"
+							value={password}
+							onChange={e => setPassword(e.target.value)}
+						/>
 					</div>
-				</div>
-				<div class="input-block bio">
-					<label htmlFor="bio">Bio</label>
-					<textarea placeholder="Conte um pouco sobre você" name="bio" id="bio" rows="3" />
-				</div>
-				<button class="save" size="lg" block variant="outline-success" type="submit">Cadastrar-se</button>
+					<button className="submit" type="submit">Login</button>
 			</form>
+			<div id="register">
+				<strong id="title">
+					Ainda não tem conta ? Cadastre-se
+				</strong>
+				<button className="submit">
+					<a className="submit" href="http://localhost:3000/cadastro">Cadastrar-se</a>
+				</button>
+			</div>
 		</div>
 	);
 }

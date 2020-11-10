@@ -1,0 +1,91 @@
+/* COMPONENTES */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a{
+	text-decoration: none;
+}
+
+input, textarea {
+	margin-top: 0px;
+	width: 100%;
+	padding-left: 20px;
+	border: none;
+	border: 0.5px solid #ddd;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	transition: 1s;
+}
+
+input:focus, textarea:focus {
+	border: 1px solid #007bff;
+}
+
+label {
+	margin-bottom: 0px;
+}
+
+#Form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+	background: #fff;
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	padding: 30px 30px;
+}
+
+#title {
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	color: #111;
+}
+
+#register {
+	margin-top: 25px;
+}
+/* COMPONENTES */
+
+/* CLASSES */
+.coords{
+	width: 50%;
+};
+
+.long {
+	margin-right: 10px;
+}
+
+.submit {
+	width: 100%;
+	background: transparent;
+	border: 2px solid #007bff;
+	color: #007bff;
+	border-radius: 15px;
+	padding: 3px;
+}
+
+.submit:hover {
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+}
+
+.submit:hover a{
+	color: white;
+}
+
+.submit a{
+	width: 100%;
+	border: none;
+}
+/* CLASSES */
