@@ -11,7 +11,7 @@ function App() {
 				<ul>
 					<li className="maratoner-item">
 						<header>
-							<img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/118764387_1923953214405831_6579696626593336624_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=Kdp5AYPe4PgAX9rQRZ2&_nc_ht=scontent.fcgh5-1.fna&oh=add9520ce5f07e578a6281e97c731307&oe=5FA69316" alt="Foto de perfil do usuario" />
+							<img src="https://avatars3.githubusercontent.com/u/29739196?s=460&u=2203006bfe9aec7c1d6674af9a11c78f887ff758&v=4" alt="Foto de perfil do usuario" />
 							<div className="maratoner-info">
 								<strong>
 									Felipe Augusto Dias
@@ -28,7 +28,7 @@ function App() {
 					</li>
 					<li className="maratoner-item">
 						<header>
-							<img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/118764387_1923953214405831_6579696626593336624_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=Kdp5AYPe4PgAX9rQRZ2&_nc_ht=scontent.fcgh5-1.fna&oh=add9520ce5f07e578a6281e97c731307&oe=5FA69316" alt="Foto de perfil do usuario" />
+							<img src="https://avatars3.githubusercontent.com/u/29739196?s=460&u=2203006bfe9aec7c1d6674af9a11c78f887ff758&v=4" alt="Foto de perfil do usuario" />
 							<div className="maratoner-info">
 								<strong>
 									Felipe Augusto Dias
@@ -45,7 +45,7 @@ function App() {
 					</li>
 					<li className="maratoner-item">
 						<header>
-							<img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/118764387_1923953214405831_6579696626593336624_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=Kdp5AYPe4PgAX9rQRZ2&_nc_ht=scontent.fcgh5-1.fna&oh=add9520ce5f07e578a6281e97c731307&oe=5FA69316" alt="Foto de perfil do usuario" />
+							<img src="https://avatars3.githubusercontent.com/u/29739196?s=460&u=2203006bfe9aec7c1d6674af9a11c78f887ff758&v=4" alt="Foto de perfil do usuario" />
 							<div className="maratoner-info">
 								<strong>
 									Felipe Augusto Dias
@@ -62,7 +62,7 @@ function App() {
 					</li>
 					<li className="maratoner-item">
 						<header>
-							<img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/118764387_1923953214405831_6579696626593336624_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=Kdp5AYPe4PgAX9rQRZ2&_nc_ht=scontent.fcgh5-1.fna&oh=add9520ce5f07e578a6281e97c731307&oe=5FA69316" alt="Foto de perfil do usuario" />
+							<img src="https://avatars3.githubusercontent.com/u/29739196?s=460&u=2203006bfe9aec7c1d6674af9a11c78f887ff758&v=4" alt="Foto de perfil do usuario" />
 							<div className="maratoner-info">
 								<strong>
 									Felipe Augusto Dias
@@ -79,7 +79,7 @@ function App() {
 					</li>
 					<li className="maratoner-item">
 						<header>
-							<img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/118764387_1923953214405831_6579696626593336624_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=Kdp5AYPe4PgAX9rQRZ2&_nc_ht=scontent.fcgh5-1.fna&oh=add9520ce5f07e578a6281e97c731307&oe=5FA69316" alt="Foto de perfil do usuario" />
+							<img src="https://avatars3.githubusercontent.com/u/29739196?s=460&u=2203006bfe9aec7c1d6674af9a11c78f887ff758&v=4" alt="Foto de perfil do usuario" />
 							<div className="maratoner-info">
 								<strong>
 									Felipe Augusto Dias
@@ -96,7 +96,7 @@ function App() {
 					</li>
 					<li className="maratoner-item">
 						<header>
-							<img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/118764387_1923953214405831_6579696626593336624_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=Kdp5AYPe4PgAX9rQRZ2&_nc_ht=scontent.fcgh5-1.fna&oh=add9520ce5f07e578a6281e97c731307&oe=5FA69316" alt="Foto de perfil do usuario" />
+							<img src="https://avatars3.githubusercontent.com/u/29739196?s=460&u=2203006bfe9aec7c1d6674af9a11c78f887ff758&v=4" alt="Foto de perfil do usuario" />
 							<div className="maratoner-info">
 								<strong>
 									Felipe Augusto Dias
