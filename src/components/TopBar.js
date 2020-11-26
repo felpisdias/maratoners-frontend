@@ -18,7 +18,7 @@ function Header() {
 			</div>
 
 			<div className="link-topbar">
-				<a href="http://localhost:3000/login">Perfil</a>
+				<a href="http://localhost:3000/construction">Perfil</a>
 			</div>
 
 			<div className="link-topbar">
